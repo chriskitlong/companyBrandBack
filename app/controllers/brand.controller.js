@@ -1,5 +1,6 @@
 const axios = require('axios');
 const db = require("../models");
+require('dotenv').config();
 const Brand = db.brands;
 const Op = db.Sequelize.Op;
 
